@@ -31,7 +31,7 @@ networks using 1D CNN, LSTM and Textual Embeddings to predict a court's judgment
   * **Sigmoid/Binary-crossentrophy**: Since our prediction problem was binary classification, we used sigmoid output activation function that it returns values between 0 and 1, which can be treated as probabilities of a data point belonging to binary class. Likewise, we used binary-crossentrophy as loss function.
   * **Test accuracy/AUC**: We measured test accuracy for each model. To choose best model, we generated AUC.
 
-* **LIME**: We used LIMe to explain our model and to see what words in text contributed to the prediction
+* **LIME**: We used LIME to explain our model and to see what words in text contributed to the prediction
 
 
 <img width="853" alt="Screen Shot 2022-06-14 at 2 48 33 PM" src="https://user-images.githubusercontent.com/87022634/173666255-66a8a3be-4bd0-4250-bbea-4dc0a864a3ec.png">
